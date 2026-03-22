@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+
+#num{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#btn{
+    padding: 12px 22px;
+    background-color: rgb(73, 196, 185);
+    border-radius: 10px;
+    transition: all 0.1 ease;
+    user-select: none;
+}
+
+#btn:hover{
+    background-color: rgb(35, 149, 139);
+}

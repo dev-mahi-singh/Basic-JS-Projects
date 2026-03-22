@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Light Mode Toggle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Helvetica;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        #main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        #btn {
+            padding: 12px 22px;
+            background-color: rgb(59, 198, 198);
+            border-radius: 5px;
+            user-select: none;
+            font-size: 22px;
+            font-weight: 400;
+
+        }
+
+        .light {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .dark {
+            background-color: #121212;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="btn">Dark</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

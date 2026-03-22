@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glass Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="timer-card">
+    <h1>Countdown Timer</h1>
+
+    <!-- Input -->
+    <div class="input-group">
+      <input type="number" placeholder="Enter minutes" min="1">
+    </div>
+
+    <!-- Display -->
+    <div class="display">
+      <span class="time" id="minute">00</span>
+      <span class="colon">:</span>
+      <span class="time" id="second">00</span>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="btn start">Start</button>
+      <button class="btn pause">Pause</button>
+      <button class="btn reset">Reset</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
